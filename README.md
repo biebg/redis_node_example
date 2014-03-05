@@ -12,7 +12,7 @@ redis技术分享
   #3、打开redis数据库
 
   #4、运行相应的js文件
-  
+
   如
   ```
   node redisHash.js
