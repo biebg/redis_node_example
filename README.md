@@ -18,6 +18,17 @@ redis技术分享
   node redisHash.js
   ```
 
+各文件介绍
+---------------------
+ #redisHash.js  node对Hash数据的操作#
+
+ #redisList.js  node对List数据的操作#
+
+ #redisString.js  node对String数据的操作#
+
+ #redisSet.js  node对Set数据的操作#
+
+ #redisZset.js  node对zset数据的操作#
 
 
 1、redis的介绍
