@@ -5,11 +5,15 @@ redis技术分享
 前期准备
 --------------------
   
-  1、node开发环境
-  2、redis数据库 详情：http://blog.csdn.net/yoyoysc/article/details/20137417
-  3、打开redis数据库
-  4、运行相应的js文件
-  如 
+  #1、node开发环境
+
+  #2、redis数据库 详情：http://blog.csdn.net/yoyoysc/article/details/20137417
+
+  #3、打开redis数据库
+
+  #4、运行相应的js文件
+  
+  如
   ```
   node redisHash.js
   ```
