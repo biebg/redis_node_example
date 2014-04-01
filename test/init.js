@@ -67,37 +67,37 @@ function init1(){
 
 }
 function init2(){
-    Redis.hmset('id:12.1',{id:12,value:"12"},function(err,result){
+    Redis.hmset('name.id:12.1',{id:12,value:"12"},function(err,result){
         console.log(err,result);
     })
-    Redis.hmset('id:123.2',{id:123,value:"12"},function(err,result){
+    Redis.hmset('name.id:123.2',{id:123,value:"12"},function(err,result){
         console.log(err,result);
     })
-    Redis.hmset('id:123.3',{id:123,value:"12"},function(err,result){
+    Redis.hmset('name.id:123.3',{id:123,value:"12"},function(err,result){
         console.log(err,result);
     })
-    Redis.hmset('id:12.4',{id:12,value:"12"},function(err,result){
+    Redis.hmset('name.id:12.4',{id:12,value:"12"},function(err,result){
         console.log(err,result);
     })
-    Redis.hmset('id:123.5',{id:123,value:"12"},function(err,result){
+    Redis.hmset('name.id:123.5',{id:123,value:"12"},function(err,result){
         console.log(err,result);
     })
-    Redis.hmset('id:12.5',{id:12,value:"12"},function(err,result){
+    Redis.hmset('name.id:12.5',{id:12,value:"12"},function(err,result){
         console.log(err,result);
     })
-    Redis.hmset('id:123.6',{id:123,value:"12"},function(err,result){
+    Redis.hmset('name.id:123.6',{id:123,value:"12"},function(err,result){
         console.log(err,result);
     })
-    Redis.hmset('id:123.7',{id:123,value:"12"},function(err,result){
+    Redis.hmset('name.id:123.7',{id:123,value:"12"},function(err,result){
         console.log(err,result);
     })
-    Redis.hmset('id:12.8',{id:12,value:"12"},function(err,result){
+    Redis.hmset('name.id:12.8',{id:12,value:"12"},function(err,result){
         console.log(err,result);
     })
-    Redis.hmset('id:12.9',{id:12,value:"12"},function(err,result){
+    Redis.hmset('name.id:12.9',{id:12,value:"12"},function(err,result){
         console.log(err,result);
     })
-    Redis.hmset('id:123.10',{id:123,value:"12"},function(err,result){
+    Redis.hmset('name.id:123.10',{id:123,value:"12"},function(err,result){
         console.log(err,result);
     })
 

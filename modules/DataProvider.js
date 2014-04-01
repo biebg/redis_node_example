@@ -47,4 +47,9 @@ DataProvider.prototype.smembers = function (name,callback) {
         callback(err,result);
     })
 };
+DataProvider.prototype.keys = function (name,callback) {
+    this.client.keys(name,function(err,result){
+        callback(err,result);
+    })
+};
 exports.DataProvider=DataProvider;

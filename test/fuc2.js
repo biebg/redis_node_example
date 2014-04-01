@@ -10,8 +10,19 @@ function fuc2(){
     setTimeout(getList,2000)
 }
 function getList(){
-    Redis.hgetall(new RegExp("^.*"+"id:12"+".*$"),function(err,result){
-        console.log(err,result)
+    var begin=Date.now();
+    Redis.keys("*"+"name.id:12"+"*",function(err,result){
+        console.log(err,result);
+        var iterator=function(item,finish){
+            Redis.hgetall(item,function(err,result){
+                console.log("List===>",result);
+                finish()
+            })
+        }
+        async.eachSeries(result,iterator,function(err,result){
+            console.log("耗时=============》",Date.now()-begin,"ms")
+        })
     })
+//
 }
 fuc2()
